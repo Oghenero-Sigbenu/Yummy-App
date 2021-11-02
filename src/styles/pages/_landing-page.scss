@@ -1,0 +1,68 @@
+.banner{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    @include for-phone-only {
+        flex-wrap: wrap;
+    }
+.text{
+    width: 50%;
+   
+    @include for-phone-only{
+        background-color: green;
+        color: white;
+        width:100%;
+        }
+    }
+    &__bg{
+        background-image: url("../../assets//images/banner-1.jpeg");
+        background-size: cover;
+        width: 50%;
+        border-radius: 50% 0px 0px 50%;
+        @include for-phone-only {
+           display: none;
+        }
+    }
+}
+.intro, .news{
+    text-align: center;
+    margin-top: 12rem;
+    input{
+        padding: 6px;
+        border: 1px solid rgb(218, 211, 211);
+        outline: none;
+    }
+    button{
+        border: none;
+        background-color: $primary-color;
+        padding: .45rem 1rem;
+        color: white;
+        }
+        @include for-phone-only{
+            margin-top: 10rem;
+    }
+}
+.second-section, .third-section{
+    width: 80%;
+    margin: 50px auto;
+}
+.recipes{
+    @include for-phone-only{
+        margin: 0 auto;
+        width: 60%;
+}
+}
+
+.third-section{
+    background-color: $primary-color;
+    text-align: center;
+    color: white;
+    padding: 2rem .5rem;
+    border-radius: .375rem;
+    .news{
+        margin-top: 1rem;
+        button{
+            background-color: green;
+        }
+    }
+}
