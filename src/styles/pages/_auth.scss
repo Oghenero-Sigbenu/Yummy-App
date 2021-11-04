@@ -1,0 +1,33 @@
+form{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: $light-shadow-1;
+    padding : 1rem .5rem; 
+    @include for-phone-only {
+        width: 96%;
+    }
+    .form-element {
+        width: 90%;
+        max-width: 600px;
+        text-align: center;
+        margin: 10px auto;
+        position: relative;
+        color: #828282; 
+      }  
+    label{
+        display: block;
+        text-align: left;
+    } 
+    .form-element input {
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #828282;
+        // background: #ededed;
+        padding: 10px;
+        font-size: 16px;
+        color: #828282;
+        margin: 5px auto;
+        box-sizing: border-box;
+      }
+}

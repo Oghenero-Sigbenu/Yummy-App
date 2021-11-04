@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCommentAlt } from '@fortawesome/free-solid-svg-icons'
-import Parfait from "../assets/images/parfait.jpg";
 
 function App({url}) {
   return (

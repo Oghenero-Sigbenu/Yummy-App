@@ -2,6 +2,7 @@
     height: 450px;
     width: 100%;
     display: flex;
+    margin-top: -90px;
     @include for-phone-only {
         flex-wrap: wrap;
     }
@@ -9,7 +10,7 @@
     width: 50%;
    
     @include for-phone-only{
-        background-color: green;
+        background-image: url("../../assets//images/banner-1.jpeg");
         color: white;
         width:100%;
         }
@@ -52,7 +53,6 @@
         width: 60%;
 }
 }
-
 .third-section{
     background-color: $primary-color;
     text-align: center;
@@ -62,7 +62,8 @@
     .news{
         margin-top: 1rem;
         button{
-            background-color: green;
+            background-color: yellow;
+            color:black;
         }
     }
 }
