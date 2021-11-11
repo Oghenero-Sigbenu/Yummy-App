@@ -70,6 +70,9 @@ function App() {
 						<NavItem>
 							<NavLink href="/signup">Signup</NavLink>
 						</NavItem>
+						<NavItem>
+							<NavLink href="/create">Create Recipe</NavLink>
+						</NavItem>
 					</Nav>
 				</Collapse>
 			</Navbar>

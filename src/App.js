@@ -8,6 +8,7 @@ import Login from "./pages/auth/login";
 import Signup from "./pages/auth/signup";
 import Reset from "./pages/auth/resetPassword";
 import Forgot from "./pages/auth/forgotPass";
+import Create from "./pages/create_recipe";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" component={Login}/>
         <Route path="/signup" component={Signup}/>
         <Route path="/reset" component={Reset}/>
+        <Route path="/create" component={Create}/>
         <Route path="/forgot" component={Forgot}/>
         <Route path="/" component={Home}/>
       </Switch>
