@@ -5,10 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
-import "./styles/main.scss"
+import "./styles/main.scss";
+import {Provider} from "react-redux";
+import giveStore from "./redux/store";
+
 ReactDOM.render(
     <BrowserRouter>
+    <Provider store={giveStore()}>
     <App />
+    </Provider>
     </BrowserRouter>,
   document.getElementById('root')
 );

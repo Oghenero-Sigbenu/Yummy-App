@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 // components
 import RecipeCard from "../../components/recipe_card";
@@ -11,6 +11,8 @@ import Cake from "../../assets/images/cake.jpeg";
 import Meat from "../../assets/images/meat.jpeg";
 
 function Home() {
+    useEffect(() => {
+    },[])
   return (
     <div className="landing-page">
         <Navbar/>

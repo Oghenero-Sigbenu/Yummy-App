@@ -1,10 +1,10 @@
 import Navbar from "../../components/navbar";
-import { useForm, useFieldArray, Controller, useWatch } from "react-hook-form";
+import { useForm, useFieldArray, Controller } from "react-hook-form";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 function AddRecipe() {
-    const { register, control, handleSubmit, reset, trigger, setError } = useForm({
+    const { control, handleSubmit } = useForm({
         // defaultValues: {}; you can populate the fields by this attribute 
       });
       const { fields, append } = useFieldArray({

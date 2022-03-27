@@ -8,7 +8,7 @@ import Login from "./pages/auth/login";
 import Signup from "./pages/auth/signup";
 import Reset from "./pages/auth/resetPassword";
 import Forgot from "./pages/auth/forgotPass";
-import Create from "./pages/create_recipe";
+import Create from "./pages/createRecipe";
 
 function App() {
   return (
